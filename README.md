@@ -29,14 +29,14 @@ TON/OFF delay : LED_toggle() <br />
 ## Project Structure
 
 ├── Core<br />
-├── Inc<br />  → ADC.h <br />
-├── Src<br /> → ADC.c<br /> → main.c
+├── Inc<br />  → Systick.h <br />
+├── Src<br /> → Systick.c<br /> → main.c
 
 ## Troubleshooting
 
 User LED3 is OFF:
 - Verify clock source for systick peripheral (SysTick->CTRL register)
-- Verify clock acess for port D (RCC->AHB1ENR register)
+- Verify clock access for port D (RCC->AHB1ENR register)
 - Verify PD13 mode, should be configured to output mode (GPIOD->MODER)
   
 ## Contributing
