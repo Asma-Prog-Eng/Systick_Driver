@@ -1,9 +1,15 @@
-/****************************************************
- * TON/OFF delay implementation
- * TON delay = 1s
- * TOFF delay = 2s
- * to toggle User LED3
- *****************************************************/
+/**
+ ******************************************************************************
+ * @file           : main.c
+ * @author         : Asma Askri
+ * @brief          : Main program body
+ ******************************************************************************
+ * Bare metal implementation of a Systick Driver
+ * TON/OFF delay implementation to toggle User LED3 : 
+ * TON delay = 1s, TOFF delay = 2s
+ ******************************************************************************
+ */
+
 
 #include "stm32f4xx.h"
 
